@@ -1,17 +1,19 @@
 body {
     text-align: center;
+    background-color: rgb(197, 196, 196) ;
 }
 
 .square {
     text-align: center;
     width: 50px;
-    background: #eee;
+    background: #4d8b93;
     display: inline-block;
     padding: 40px;
     font-size: 60px;
     margin: 5px;
+    border-radius: 15%;
     cursor: pointer;
-    color: #eee;
+    color: #4d8b93;
 }
 
 .jogador, .vencedor{
@@ -23,6 +25,6 @@ button {
     margin-top: 10px;
     width: 100px;
     height: 30px;
-    background: #eee;
+    background: #b30505;
     cursor: pointer;
 }
