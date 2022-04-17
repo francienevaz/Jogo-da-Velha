@@ -39,15 +39,15 @@ function mudarJogador(valor) {
 }
 
 function verificarVencedor () {
-    var Q1 = document.getElementById('1');
-    var Q2 = document.getElementById('2');
-    var Q3 = document.getElementById('3');
-    var Q4 = document.getElementById('4');
-    var Q5 = document.getElementById('5');
-    var Q6 = document.getElementById('6');
-    var Q7 = document.getElementById('7');
-    var Q8 = document.getElementById('8');
-    var Q9 = document.getElementById('9');
+    var Q1 = document.getElementById(1);
+    var Q2 = document.getElementById(2);
+    var Q3 = document.getElementById(3);
+    var Q4 = document.getElementById(4);
+    var Q5 = document.getElementById(5);
+    var Q6 = document.getElementById(6);
+    var Q7 = document.getElementById(7);
+    var Q8 = document.getElementById(8);
+    var Q9 = document.getElementById(9);
 
     if (verificarSequencia(Q1, Q2, Q3)) {
         mudarCorQuadrado(Q1, Q2, Q3);
@@ -79,9 +79,10 @@ function mudarVencedor (quadrado) {
 }
 
 function mudarCorQuadrado (Q1, Q2, Q3) {
-    Q1.style.color = '#0f0';
-    Q2.style.color = '#0f0';
-    Q3.style.color = '#0f0';
+
+    Q1.style.background = '#0f0';
+    Q2.style.background = '#0f0';
+    Q3.style.background = '#0f0';
 }
 
 function verificarSequencia (Q1, Q2, Q3) {
@@ -90,4 +91,18 @@ function verificarSequencia (Q1, Q2, Q3) {
     if (Q1.innerHTML !== '-' && Q1.innerHTML === Q2.innerHTML && Q2.innerHTML === Q3.innerHTML) {
         eIgual = true;
     }
+}
+
+function reiniciar() {
+    vencedor.valor = null;
+    vencedorSelecionado.innerHTML = '';
+
+    for (let i = 1; i <= 9; i++) {
+        let quadrado = document.getElementById(i);
+        quadrado.style.background = '#eee';
+        quadrado.style.color = '#eee';
+        quadrado.innerHTML = '-';
+    }
+
+    mudarJogador('X');
 }
