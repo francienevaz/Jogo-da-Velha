@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 body {
     text-align: center;
-    background-color: rgb(197, 196, 196) ;
+    background-color: #fac1b7 ;
+    font-family: 'Indie Flower', cursive;
 }
 
 .square {
     text-align: center;
     width: 50px;
-    background: #4d8b93;
+    background: #45919b;
     display: inline-block;
     padding: 40px;
     font-size: 60px;
@@ -21,11 +24,18 @@ body {
     margin-top: 10px;
 }
 
-button {
+.botao {
     margin-top: 10px;
+    padding: 5px;
     width: 100px;
     height: 30px;
     color: #ffffff;
-    background: #c50101;
+    background: #025192;
+    border-radius: 15px;
     cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #00fd94;
+    color: #000000;
 }

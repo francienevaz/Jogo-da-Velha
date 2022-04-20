@@ -105,9 +105,9 @@ function mudarVencedor (quadrado) {
 
 function mudarCorQuadrado (Q1, Q2, Q3) {
 
-    Q1.style.background = '#0f0';
-    Q2.style.background = '#0f0';
-    Q3.style.background = '#0f0';
+    Q1.style.background = '#00fd94';
+    Q2.style.background = '#00fd94';
+    Q3.style.background = '#00fd94';
 }
 
 function verificarSequencia (Q1, Q2, Q3) {
