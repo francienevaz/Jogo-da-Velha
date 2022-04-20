@@ -25,6 +25,7 @@ button {
     margin-top: 10px;
     width: 100px;
     height: 30px;
-    background: #b30505;
+    color: #ffffff;
+    background: #c50101;
     cursor: pointer;
 }
