@@ -1,5 +1,6 @@
 # Jogo-da-Velha
-![Jogo da Velha](https://user-images.githubusercontent.com/87665209/164448594-0f12ba92-6909-462d-9c83-2df04b812c8c.png)
+![Jogo da Velha](https://user-images.githubusercontent.com/87665209/164471205-83ab47d0-b923-488c-9a91-485f5f3ca3b4.png)
+
 
 
 Jogo criado para o BootCamp da Órbi Web Games Developer dentro da Plataforma da <a href="https://web.dio.me/home">DIO</a>. Desenvolvido com o uso de Javascript.
